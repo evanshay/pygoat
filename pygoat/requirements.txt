@@ -9,3 +9,4 @@ gunicorn
 django-heroku
 whitenoise
 django-allauth
+django-allauth>=65.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
